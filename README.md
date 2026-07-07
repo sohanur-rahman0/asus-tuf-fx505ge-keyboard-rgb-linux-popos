@@ -1,5 +1,6 @@
 # ASUS TUF FX505GE — Keyboard RGB Controller for Linux
 ![Screenshot](Screenshot.png)
+
 A GTK-based GUI app to control the keyboard RGB backlight on the ASUS TUF FX505GE under Linux, using the `asus-nb-wmi` kernel module's sysfs interface.
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
