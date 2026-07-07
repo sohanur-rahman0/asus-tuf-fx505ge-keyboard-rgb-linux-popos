@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Background rounded rect -->
+  <rect width="128" height="128" rx="24" ry="24" fill="#1a1a2e"/>
+
+  <!-- Keyboard base -->
+  <rect x="10" y="44" width="108" height="60" rx="8" ry="8" fill="#16213e"/>
+  <rect x="10" y="44" width="108" height="60" rx="8" ry="8" fill="none" stroke="#0f3460" stroke-width="2"/>
+
+  <!-- Key rows - row 1 -->
+  <rect x="16" y="50" width="12" height="10" rx="2" fill="#0f3460"/>
+  <rect x="31" y="50" width="12" height="10" rx="2" fill="#0f3460"/>
+  <rect x="46" y="50" width="12" height="10" rx="2" fill="#0f3460"/>
+  <rect x="61" y="50" width="12" height="10" rx="2" fill="#0f3460"/>
+  <rect x="76" y="50" width="12" height="10" rx="2" fill="#0f3460"/>
+  <rect x="91" y="50" width="12" height="10" rx="2" fill="#0f3460"/>
+  <rect x="106" y="50" width="12" height="10" rx="2" fill="#0f3460"/>
+
+  <!-- Key rows - row 2 with RGB glow -->
+  <rect x="16" y="64" width="12" height="10" rx="2" fill="#1a0030"/>
+  <rect x="16" y="64" width="12" height="10" rx="2" fill="none" stroke="#ff0055" stroke-width="1.5"/>
+
+  <rect x="31" y="64" width="12" height="10" rx="2" fill="#001a30"/>
+  <rect x="31" y="64" width="12" height="10" rx="2" fill="none" stroke="#ff6600" stroke-width="1.5"/>
+
+  <rect x="46" y="64" width="12" height="10" rx="2" fill="#001a00"/>
+  <rect x="46" y="64" width="12" height="10" rx="2" fill="none" stroke="#00ff88" stroke-width="1.5"/>
+
+  <rect x="61" y="64" width="12" height="10" rx="2" fill="#001a30"/>
+  <rect x="61" y="64" width="12" height="10" rx="2" fill="none" stroke="#00aaff" stroke-width="1.5"/>
+
+  <rect x="76" y="64" width="12" height="10" rx="2" fill="#1a001a"/>
+  <rect x="76" y="64" width="12" height="10" rx="2" fill="none" stroke="#aa00ff" stroke-width="1.5"/>
+
+  <rect x="91" y="64" width="12" height="10" rx="2" fill="#1a1a00"/>
+  <rect x="91" y="64" width="12" height="10" rx="2" fill="none" stroke="#ffff00" stroke-width="1.5"/>
+
+  <rect x="106" y="64" width="12" height="10" rx="2" fill="#001a1a"/>
+  <rect x="106" y="64" width="12" height="10" rx="2" fill="none" stroke="#00ffff" stroke-width="1.5"/>
+
+  <!-- Key rows - row 3 -->
+  <rect x="16" y="78" width="12" height="10" rx="2" fill="#0f3460"/>
+  <rect x="31" y="78" width="12" height="10" rx="2" fill="#0f3460"/>
+  <rect x="46" y="78" width="12" height="10" rx="2" fill="#0f3460"/>
+  <rect x="61" y="78" width="12" height="10" rx="2" fill="#0f3460"/>
+  <rect x="76" y="78" width="12" height="10" rx="2" fill="#0f3460"/>
+  <rect x="91" y="78" width="12" height="10" rx="2" fill="#0f3460"/>
+  <rect x="106" y="78" width="12" height="10" rx="2" fill="#0f3460"/>
+
+  <!-- Spacebar -->
+  <rect x="28" y="92" width="72" height="8" rx="2" fill="#0f3460"/>
+  <rect x="28" y="92" width="72" height="8" rx="2" fill="none" stroke="#1D9E75" stroke-width="1.5"/>
+
+  <!-- RGB arc glow on top -->
+  <defs>
+    <linearGradient id="rgbGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#ff0055"/>
+      <stop offset="25%"  stop-color="#ff6600"/>
+      <stop offset="50%"  stop-color="#00ff88"/>
+      <stop offset="75%"  stop-color="#00aaff"/>
+      <stop offset="100%" stop-color="#aa00ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="10" y="42" width="108" height="4" rx="2" fill="url(#rgbGrad)" opacity="0.9"/>
+
+  <!-- ASUS TUF text -->
+  <text x="64" y="34" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#1D9E75">ASUS TUF</text>
+  <text x="64" y="14" text-anchor="middle" font-family="sans-serif" font-size="9" fill="#888">RGB</text>
+</svg>
